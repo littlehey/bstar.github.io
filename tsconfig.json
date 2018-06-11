@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+      "outDir": "./built/",
+      "sourceMap": true,
+      "strict": true,
+      "noImplicitReturns": true,
+      "module": "es2015",
+      "allowJs": true, //允许编译import的js文件
+      "moduleResolution": "node",
+      "allowSyntheticDefaultImports": true, //允许import进来的文件没有export default
+      "experimentalDecorators": true, //es7支持
+      "target": "es6"
+  },
+  "include": [
+      "./src/**/*"
+  ]
+}
